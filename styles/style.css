@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: rgb(232, 232, 232);
+    text-align: center;
+    padding: 1em 2em;
+    font-size: 1.7em;
+    font-weight: 600;
+    letter-spacing: .3em;
+}
+
+.card {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.card .current-color {
+    color: rgb(234, 224, 224);
+    background-color: rgb(40, 40, 40);
+    font-size: 1.5rem;
+    padding: .8rem 1rem;
+    border-radius: .2rem;
+}
+
+.color-changer {
+    margin-top: 2rem;
+    color: rgb(234, 224, 224);
+    background-color: rgb(40, 40, 40);
+    font-size: 1.2rem;
+    padding: .3rem 1.5rem;
+    border-radius: .2rem;
+    text-transform: capitalize;
+    border: none;
+}
+
+.color-changer:hover {
+    opacity: .8;
+    cursor: pointer;
+}
